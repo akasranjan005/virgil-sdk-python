@@ -33,6 +33,7 @@ Be sure that you have already registered at the [Dev Portal](https://developer.v
 To initialize the SDK at the __Client Side__ you need only the __Access Token__ created for a client at Dev Portal. The Access Token helps to authenticate client's requests.
 
 ```python
+from virgil_sdk.api import Virgil
 virgil = Virgil("[ACCESS_TOKEN]")
 ```
 
